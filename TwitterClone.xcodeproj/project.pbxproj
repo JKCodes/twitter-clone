@@ -18,6 +18,7 @@
 		D80F993E1E6F672100503F74 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80F993D1E6F672100503F74 /* User.swift */; };
 		D80F99401E6F71FF00503F74 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80F993F1E6F71FF00503F74 /* UserCell.swift */; };
 		D89738DF1E70A03E00696FA4 /* HomeDatasourceController+navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89738DE1E70A03E00696FA4 /* HomeDatasourceController+navbar.swift */; };
+		D89738E21E70B87D00696FA4 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89738E11E70B87D00696FA4 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D80F993D1E6F672100503F74 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D80F993F1E6F71FF00503F74 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		D89738DE1E70A03E00696FA4 /* HomeDatasourceController+navbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeDatasourceController+navbar.swift"; sourceTree = "<group>"; };
+		D89738E11E70B87D00696FA4 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				D80F99391E6F228600503F74 /* UserHeaderFooter.swift */,
 				D80F993F1E6F71FF00503F74 /* UserCell.swift */,
+				D89738E11E70B87D00696FA4 /* TweetCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				D80F993C1E6F22BB00503F74 /* HomeDatasource.swift in Sources */,
 				D80F99251E6F13EA00503F74 /* HomeController.swift in Sources */,
 				D80F993E1E6F672100503F74 /* User.swift in Sources */,
+				D89738E21E70B87D00696FA4 /* TweetCell.swift in Sources */,
 				D80F993A1E6F228700503F74 /* UserHeaderFooter.swift in Sources */,
 				D80F99351E6F1E4A00503F74 /* HomeDatasourceController.swift in Sources */,
 				D89738DF1E70A03E00696FA4 /* HomeDatasourceController+navbar.swift in Sources */,

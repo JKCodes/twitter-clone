@@ -18,6 +18,8 @@ class HomeDatasource: Datasource {
         let user3 = User(name: "Another User", username: "@abcd1234", bioText: "This is my bio. I like to go hiking, swimming, and running.  I have visited over 200 countries, and I have lived in five different continents.  I would like to visit every country in the world, and I would like to live in Antarctica one day.  That would be so so sweet!", profileImage: #imageLiteral(resourceName: "profile_image"))
         return [user1, user2, user3]
     }()
+    
+    let tweets = ["tweet1", "tweet2"]
         
     override func headerClasses() -> [DatasourceCell.Type]? {
         return [UserHeader.self]
@@ -28,14 +30,21 @@ class HomeDatasource: Datasource {
     }
     
     override func cellClasses() -> [DatasourceCell.Type] {
-        return [UserCell.self]
+        return [UserCell.self, TweetCell.self]
     }
     
     override func item(_ indexPath: IndexPath) -> Any? {
         return users[indexPath.row]
     }
     
+    override func numberOfSections() -> Int {
+        return 2
+    }
+    
     override func numberOfItems(_ section: Int) -> Int {
+        if section == 1 {
+            return tweets.count
+        }
         return users.count
     }
 }

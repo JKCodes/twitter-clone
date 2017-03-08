@@ -53,6 +53,7 @@ class UserCell: DatasourceCell {
         textView.text = "This is my bio.  It's nice and short, and it is not very descriptive.  This is just an example bio"
         textView.font = UIFont.systemFont(ofSize: 15)
         textView.backgroundColor = .clear
+        textView.isUserInteractionEnabled = false
         return textView
     }()
     
@@ -72,6 +73,8 @@ class UserCell: DatasourceCell {
     
     override func setupViews() {
         super.setupViews()
+        
+        backgroundColor = .white
         
         separatorLineView.isHidden = false
         separatorLineView.backgroundColor = UIColor(r: 230, g: 230, b: 230)
