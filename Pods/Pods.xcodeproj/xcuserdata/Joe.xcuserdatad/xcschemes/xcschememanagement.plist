@@ -4,12 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>LBTAComponents.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-TwitterClone.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TRON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,7 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F98367AF8BAF8F77E7BD05FD1AF83E1E</key>
+		<key>31725DB146A86058A9AC768E69DCB650</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64E928B095FCA7E61B5FD3B20AF7EF99</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B98075346A26BC9A3C4A9C91786A8B3B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
