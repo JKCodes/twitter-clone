@@ -174,7 +174,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Joseph Kim";
 				TargetAttributes = {
 					D80F991E1E6F13E900503F74 = {
@@ -392,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 638E56D01898CFC0552DDF7A /* Pods-TwitterClone.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C23R6NMUVD;
 				INFOPLIST_FILE = TwitterClone/Info.plist;
@@ -406,6 +407,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 64921116FF0DDF39E71807F3 /* Pods-TwitterClone.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C23R6NMUVD;
 				INFOPLIST_FILE = TwitterClone/Info.plist;
